@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
@@ -24,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
         Intent i1 = new Intent(MainActivity.this, MainActivity2.class);
         startActivity(i1);
-               // Toast.makeText(MainActivity.this,"FAB Click!",Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this,"FAB Click!",Toast.LENGTH_SHORT).show();
 
             }
         });
