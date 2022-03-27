@@ -29,12 +29,12 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
-       // public  void malith(View view)
-         //{
 
 
-           // Intent i1 = new Intent(this, MainActivity2.class);
-            //startActivity(i1);
-        //}
+
+
+
+
+
     }
 }
